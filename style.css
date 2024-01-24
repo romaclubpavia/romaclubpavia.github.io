@@ -1,4 +1,97 @@
 body {
+  background: #990000 url(./img/bg.jpg) center no-repeat;
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ff9900;
+}
+
+.header {
   background-color: #990000;
-  color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header div#dvLanguage {
+  left: 10px;
+  position: absolute;
+  top: 10;
+  z-index: 2;
+}
+
+.header div#dvLanguage select {
+  background-color: #990000;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header div#dvTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  position: absolute;
+  top: 10;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 1;
+}
+
+.body {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.body #pAddress {
+  text-align: center;
+  width: 100%;
+}
+
+.body #pLogo {
+  text-align: center;
+  width: 100%;
+}
+
+.body #pLogo img {
+  width: 33%;
+}
+
+.body #pMail {
+  text-align: center;
+  width: 100%;
+}
+
+.dxNav {
+  right: 20px;
+  position: absolute;
+  top: 50px;
+}
+.dxNav a {
+  color: #fff;
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.dxNav a:hover {
+  color: #ff9900;
+}
+
+.dxNav span {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-transform: uppercase;
+}
+
+.footer {
+  display: none;
 }
