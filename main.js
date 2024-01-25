@@ -10,6 +10,7 @@ const socialLink = [
 const langs = [
  { isoCode: 'en-US', label: 'English', shortLabel: 'EN' },
  { isoCode: 'it-IT', label: 'Italiano', shortLabel: 'IT' },
+ { isoCode: 'pv-PV', label: 'Pavese', shortLabel: 'PV' },
  { isoCode: 'rm-RM', label: 'Romano', shortLabel: 'RM' },
 ];
 
@@ -59,16 +60,16 @@ const HomeManager = {
     labelUpdate: function() {
         document.getElementById('dvTitle').innerText = LabelManager.getLabel('headerTitle');
         document.getElementById('lbContactUs').innerText = LabelManager.getLabel('contactUs');
+        document.getElementById('elAddress').innerText = LabelManager.getLabel('address');
         document.getElementById('sFollowUs').innerText = LabelManager.getLabel('followUs');
     }
 }
 
-
-
 const labels = { 
-    enUS: { contactUs: 'Contact us', followUs: 'Follow us', headerTitle: 'ROMA CLUB PAVIA' },
-    itIT: { contactUs: 'Contattaci', followUs: 'Seguici',   headerTitle: 'ROMA CLUB PAVIA' },
-    rmRM: { contactUs: 'Contattace', followUs: 'Seguice',   headerTitle: 'ROMA CLUB PAVIA' }, 
+    enUS: { address: 'Via Ezechiele Acerbi 27, Pavia', contactUs: 'Contact us', followUs: 'Follow us', headerTitle: 'ROMA CLUB PAVIA' },
+    itIT: { address: 'Via Ezechiele Acerbi 27, Pavia', contactUs: 'Contattaci', followUs: 'Seguici',   headerTitle: 'ROMA CLUB PAVIA' },
+    pvPV: { address: 'Via Ezechiele Acerbi 27, Pavia', contactUs: 'Contattaci', followUs: 'Seguici',   headerTitle: 'ROMA CLUB PAVIA' }, 
+    rmRM: { address: 'Via Ezechiele Acerbi 27, Pavia', contactUs: 'Contattace', followUs: 'Seguice',   headerTitle: 'ROMA CLUB PAVIA' }, 
 } 
 ;
 

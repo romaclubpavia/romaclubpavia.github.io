@@ -1,11 +1,14 @@
 body {
   background: #990000 url(./img/bg.jpg) center no-repeat;
   color: #fff;
-  margin: 0;
+  font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 a {
   color: #fff;
+  text-decoration: none;
 }
 
 a:hover {
@@ -21,9 +24,9 @@ a:hover {
 }
 
 .header div#dvLanguage {
-  left: 10px;
+  left: 2rem;
   position: absolute;
-  top: 10;
+  top: 2rem;
   z-index: 2;
 }
 
@@ -31,14 +34,20 @@ a:hover {
   background-color: #990000;
   border: none;
   color: #fff;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.header div#dvLanguage select option {
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .header div#dvTitle {
-  font-size: 1rem;
+  font-size: 2.4rem;
   font-weight: 600;
   position: absolute;
-  top: 10;
+  top: 2rem;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -47,46 +56,44 @@ a:hover {
 
 .body {
   position: absolute;
-  top: 50px;
+  top: 24rem;
   width: 100%;
 }
-
-.body #pAddress {
-  text-align: center;
-  width: 100%;
-}
-
 .body #pLogo {
   text-align: center;
   width: 100%;
 }
-
 .body #pLogo img {
-  width: 33%;
+  width: 50%;
 }
-
-.body #pMail {
-  text-align: center;
+.body #elInfo {
+  margin:10%;
+  text-transform: uppercase;
   width: 100%;
+}
+.body #elContact {
+  color: #fff;
+}
+.body #elAddress {
+  color: #ff9900;
 }
 
 .dxNav {
-  right: 20px;
+  right: 2rem;
   position: absolute;
-  top: 50px;
+  top: 10rem;
 }
 .dxNav a {
   color: #fff;
   display: block;
-  font-size: 2rem;
-  margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 1.8rem;
 }
-
 .dxNav a:hover {
   color: #ff9900;
 }
-
 .dxNav span {
+  padding: 1rem;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-transform: uppercase;
