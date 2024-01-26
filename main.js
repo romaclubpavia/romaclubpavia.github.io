@@ -60,7 +60,7 @@ const HomeManager = {
     labelUpdate: function() {
         document.getElementById('dvTitle').innerText = LabelManager.getLabel('headerTitle');
         document.getElementById('lbContactUs').innerText = LabelManager.getLabel('contactUs');
-        document.getElementById('elAddress').innerText = LabelManager.getLabel('address');
+        document.getElementById('lbAddress').innerText = LabelManager.getLabel('address');
         document.getElementById('sFollowUs').innerText = LabelManager.getLabel('followUs');
     }
 }

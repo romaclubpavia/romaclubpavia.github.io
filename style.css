@@ -1,5 +1,6 @@
 body {
-  background: #990A2C;
+  background: url(./img/bg.jpg) center no-repeat no-repeat;
+  ;
   color: #fff;
   font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
   font-size: 1rem;
@@ -19,7 +20,7 @@ a:hover {
 .header1 {
   border-bottom: none;
   background-color: #FBBA00;
-  min-height: 20px;
+  height: 20px;
   left: 0;
   position: absolute;
   top: 0;
@@ -28,7 +29,7 @@ a:hover {
 
 .header {
   background-color: #990A2C;
-  min-height: 50px;
+  height: 32px;
   margin-top: 20px;
   position: relative;
   width: 100%;
@@ -38,6 +39,7 @@ a:hover {
   padding: 0.5rem;
 }
 .header div#dvLanguage {
+  position: absolute;
   z-index: 2;
 }
 .header div#dvLanguage select {
@@ -46,6 +48,7 @@ a:hover {
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
+  z-index: 2;
 }
 
 .header div#dvLanguage select option {
@@ -65,16 +68,14 @@ a:hover {
 }
 
 .body {
-  background: url(./img/bg.jpg) center no-repeat;
-  height: 97%;
   left: 0px;
   position: absolute;
-  top: 60px;
+  top: 40px;
   width: 100%;
 }
 
 .body #pLogo {
-  margin-top: 10rem;
+  margin-top: 6rem;
   text-align: center;
   width: 100%;
 }
@@ -96,7 +97,7 @@ a:hover {
 .dxNav {
   right: 0px;
   position: absolute;
-  top: 80px;
+  top: 70px;
 }
 .dxNav a {
   color: #fff;
@@ -109,7 +110,7 @@ a:hover {
   color: #FBBA00;
 }
 .dxNav span {
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem ;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-transform: uppercase;
