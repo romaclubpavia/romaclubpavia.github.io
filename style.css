@@ -1,9 +1,16 @@
+:root {
+  --color-gray: #f0f0f0;
+  --color-orange: #FBBA00;
+  --color-red: #990A2C;
+  
+  --font-1: 1rem;
+}
+
 body {
-  background: url(./img/bg.jpg) center no-repeat no-repeat;
-  ;
+  background:  var(--color-red) url(./img/bg.jpg) center no-repeat no-repeat;
   color: #fff;
   font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
-  font-size: 1rem;
+  font-size: var(--font-1);
   font-weight: 600;
   margin: 0;
 }
@@ -14,12 +21,12 @@ a {
 }
 
 a:hover {
-  color: #FBBA00;
+  color: var(--color-orange);
 }
 
 .header1 {
   border-bottom: none;
-  background-color: #FBBA00;
+  background-color: var(--color-orange);
   height: 20px;
   left: 0;
   position: absolute;
@@ -28,7 +35,7 @@ a:hover {
 }
 
 .header {
-  background-color: #990A2C;
+  background-color:  var(--color-red);
   height: 32px;
   margin-top: 20px;
   position: relative;
@@ -43,21 +50,21 @@ a:hover {
   z-index: 2;
 }
 .header div#dvLanguage select {
-  background-color: #990A2C;
+  background-color:  var(--color-red);
   border: none;
   color: #fff;
-  font-size: 1rem;
+  font-size: var(--font-1);
   font-weight: 600;
   z-index: 2;
 }
 
 .header div#dvLanguage select option {
-  font-size: 1rem;
+  font-size: var(--font-1);
   font-weight: 600;
 }
 
 .header div#dvTitle {
-  font-size: 1rem;
+  font-size: var(--font-1);
   font-weight: 600;
   position: absolute;
   top: 0px;
@@ -75,7 +82,7 @@ a:hover {
 }
 
 .body #pLogo {
-  margin-top: 6rem;
+  margin-top: 4rem;
   text-align: center;
   width: 100%;
 }
@@ -91,7 +98,7 @@ a:hover {
   color: #fff;
 }
 .body #elAddress {
-  color: #FBBA00;
+  color: var(--color-orange);
 }
 
 .dxNav {
@@ -102,15 +109,15 @@ a:hover {
 .dxNav a {
   color: #fff;
   display: block;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: var(--font-1);
   text-align: center;
 }
 .dxNav a:hover {
-  color: #FBBA00;
+  color: var(--color-orange);
 }
 .dxNav span {
-  padding: 1rem 1rem 0rem 1rem ;
+  padding: var(--font-1) var(--font-1) 0rem var(--font-1) ;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-transform: uppercase;
