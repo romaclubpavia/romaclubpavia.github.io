@@ -1,8 +1,8 @@
 body {
-  background: #990000 url(./img/bg.jpg) center no-repeat;
+  background: #990A2C;
   color: #fff;
   font-family: sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -12,39 +12,50 @@ a {
 }
 
 a:hover {
-  color: #ff9900;
+  color: #FBBA00;
 }
 
-.header {
-  background-color: #990000;
-  position: absolute;
+.header1 {
+  border-bottom: solid 1px #000;
+  background-color: #FBBA00;
+  min-height: 29px;
   left: 0;
+  position: absolute;
   top: 0;
+  width: 100%;
+}
+.header {
+  background-color: #990A2C;
+  left: 0;
+  height: 70px;
+  position: absolute;
+  top: 30px;
   width: 100%;
 }
 
 .header div#dvLanguage {
-  left: 2rem;
+  left: 1rem;
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   z-index: 2;
 }
 
 .header div#dvLanguage select {
-  background-color: #990000;
+  background-color: #990A2C;
   border: none;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 600;
+  padding: 1rem;
 }
 
 .header div#dvLanguage select option {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 
 .header div#dvTitle {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 600;
   position: absolute;
   top: 2rem;
@@ -55,11 +66,16 @@ a:hover {
 }
 
 .body {
+  background: url(./img/bg.jpg) center no-repeat;
+  height: 100%;
+  left: 0px;
   position: absolute;
-  top: 24rem;
+  top: 100px;
   width: 100%;
 }
+
 .body #pLogo {
+  margin-top: 30rem;
   text-align: center;
   width: 100%;
 }
@@ -75,7 +91,7 @@ a:hover {
   color: #fff;
 }
 .body #elAddress {
-  color: #ff9900;
+  color: #FBBA00;
 }
 
 .dxNav {
@@ -86,14 +102,15 @@ a:hover {
 .dxNav a {
   color: #fff;
   display: block;
-  font-size: 4rem;
+  font-size: 6rem;
   margin-bottom: 1.8rem;
+  text-align: center;
 }
 .dxNav a:hover {
-  color: #ff9900;
+  color: #FBBA00;
 }
 .dxNav span {
-  padding: 1rem;
+  padding: 1.5rem;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   text-transform: uppercase;
